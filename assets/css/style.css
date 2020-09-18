@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+}
+
+div#root {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.inputCls {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-size: 2em;
+    color: blue;
+    border-radius: 5px;
+}
+
+.inputClsCorrect {
+    border-color: green;
+    background-color: lightgreen;
+}
+
+.inputClsIncorrect {
+    border-color: red;
+    background-color: lightcoral;
+}
