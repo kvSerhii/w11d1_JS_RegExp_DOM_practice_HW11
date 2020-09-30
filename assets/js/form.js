@@ -32,9 +32,11 @@ console.dir(inputSubmit.textContent);
 // rendering elements
 root.appendChild(form);
 
-form.appendChild(inputName);
-form.appendChild(inputPass);
-form.appendChild(inputSubmit);
+form.append(inputName, inputPass, inputSubmit);
+
+// form.appendChild(inputName);
+// form.appendChild(inputPass);
+// form.appendChild(inputSubmit);
 
 // event listener on 'submit' button
 inputSubmit.addEventListener("click", (event) => {
